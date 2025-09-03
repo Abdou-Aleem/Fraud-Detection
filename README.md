@@ -15,52 +15,6 @@ This project leverages machine learning to detect fraudulent transactions in e-c
 
 ---
 
-## Project Directory Structure
-
-The repository is organized as follows:
-
-- **`.github/workflows/`**: Contains GitHub Actions for CI/CD and automated testing.
-- **`.vscode/`**: Development configuration for Visual Studio Code.
-- **`fraud-detection-api/`**: REST API implementation for serving fraud detection models.
-- **`fraud-dashboard/`**: Dash application for real-time fraud data visualization.
-- **`notebooks/`**: Jupyter notebooks for data exploration, feature engineering, and model prototyping.
-- **`scripts/`**: Scripts for data preprocessing, visualization, and model building.
-- **`tests/`**: Unit tests for model integrity and data processing functions.
-
----
-
-## Installation
-
-Follow these steps to set up and run the project locally:
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/epythonlab/fraud-detection.git
-   cd fraud-detection
-   ```
-
-2. **Set Up a Virtual Environment**
-
-   **For Linux/MacOS:**
-   ```bash
-   python3 -m venv .venv
-   source .venv/bin/activate
-   ```
-
-   **For Windows:**
-   ```bash
-   python -m venv .venv
-   .venv\Scripts\activate
-   ```
-
-3. **Install Required Packages**
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
----
 
 ## Project Tasks and Workflow
 
